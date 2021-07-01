@@ -2,12 +2,12 @@ import React, { useEffect } from 'react';
 // import { useDispatch } from 'react-redux';
 // // import { loadTypes } from '../redux/actions';
 // import { loadCards, loadPages, searchPokemon, loadFilters, loadTypes } from '../redux/actions';
-// import Logo from './Logo';
-// import User from './User';
-// import NavBar from './NavBar';
+import Logo from './Logo';
+import User from './User';
+import NavBar from './NavBar';
 import s from '../styles/Head.module.css';
 
-export default function Head() {
+export default function Head():JSX.Element {
     // const dispatch = useDispatch();
     // useEffect( () => {
     //     dispatch( loadCards() );
@@ -18,9 +18,9 @@ export default function Head() {
     // }, [] );
     return (
         <div className={s.head}>
-            {/* <Logo/>
+            <Logo/>
             <NavBar/>
-            <User/> */}
+            <User/>
         </div>
     )
 }

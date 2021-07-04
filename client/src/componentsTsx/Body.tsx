@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
-// import Home from './Home';
+import Home from './Home';
 // import Pokemon from './Pokemon';
 // import Create from './Create';
 // import Edit from './Edit';
@@ -12,7 +12,7 @@ export default function Body() {
     return (
         <div className={s.body}>
             <Route exact path="/">
-                {/* <Home/> */}
+                <Home/>
             </Route>
             <Route path="/pokemon">
                 {/* <Pokemon/> */}

@@ -2,9 +2,9 @@ import React from 'react';
 // import React, { useEffect } from 'react';
 // import { useDispatch } from 'react-redux';
 // import { initFilters } from '../redux/actions';
-// import SearchBar from './SearchBar';
+import SearchBar from './SearchBar';
 import Filters from './Filters';
-// import Cards from './Cards';
+import Cards from './Cards';
 // import Paged from './Paged';
 import s from '../styles/Home.module.css';
 
@@ -17,11 +17,11 @@ export default function Home(): JSX.Element {
     return (
         <div className={s.container}>
             <Filters/>
-            {/* <div className={s.bigArea}>
+            <div className={s.bigArea}>
                 <SearchBar/>
-                <Paged/>
+                {/* <Paged/> */}
                 <Cards/>
-            </div> */}
+            </div>
         </div>
     )
 }

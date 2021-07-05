@@ -50,8 +50,8 @@ export default function Filters() {
                     >solo de Api</button>
                 </Link>
             </div> */}
-            <div className={s.filter}>
-                {/* { types && types.map( t => <label
+            {/* <div className={s.filter}>
+                { types && types.map( t => <label
                         key={t} className={s.item}>
                             {t}
                         <input type="checkbox" 
@@ -68,8 +68,8 @@ export default function Filters() {
                         dispatch(setActualPageFilter(0));
                         // dispatch( filter() );
                         }} className={s.btn}>Aplicar</button>
-                </Link> */}
-            </div>
+                </Link>
+            </div> */}
         </div>
     )
 }
